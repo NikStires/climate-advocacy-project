@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet-async';
 import {
   Container,
   ContentLeft,
-  ContentRight,
   SecondContainer,
 } from '../../../styles/styles';
 import { Parallax } from 'react-parallax';

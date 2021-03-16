@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet-async';
-import styled from 'styled-components';
 import { Parallax } from 'react-parallax';
 
 import {
@@ -11,7 +10,6 @@ import {
   Cite,
 } from '../../../styles/styles';
 import ScrollTop from '../../components/ScrollTop';
-import Wave from '../../components/Wave';
 import Regions from '../../../img/regions.png';
 import AtRisk from '../../../img/atRisk.jpg';
 import Deforest from '../../../img/deforest.jpg';
@@ -61,7 +59,7 @@ export function RiskPage() {
           </Cite>
         </ContentLeft>
         <ContentRight>
-          <img src={AtRisk} alt="" />
+          <img src={AtRisk} alt="at risk people" />
         </ContentRight>
       </Container>
       <Parallax bgImage={Fire} strength={500}>
@@ -105,7 +103,7 @@ export function RiskPage() {
           </p>
         </ContentLeft>
         <ContentRight>
-          <img src={Regions} alt="" />
+          <img src={Regions} alt="map of U.S. regions" />
           <Cite>
             Callery, Susan. “The Effects of Climate Change.” NASA, NASA, 23 Dec.
             2020,
@@ -141,7 +139,7 @@ export function RiskPage() {
           </p>
         </ContentLeft>
         <ContentRight>
-          <img src={Farm} alt="" />
+          <img src={Farm} alt="vertical farm" />
           <Cite>Photo: AeroFarms</Cite>
         </ContentRight>
       </Container>
