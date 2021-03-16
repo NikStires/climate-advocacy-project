@@ -9,7 +9,6 @@ import {
   Cite,
 } from '../../../styles/styles';
 import ScrollTop from '../../components/ScrollTop';
-import Change from '../../../img/climate.gif';
 import Chart from '../../../img/chart.svg';
 import Wave from '../../components/Wave';
 
@@ -46,6 +45,7 @@ export function HomePage() {
         </ContentLeft>
         <ContentRight>
           <iframe
+            title="climate change 1880-2019"
             width="100%"
             height="100%"
             src="https://www.youtube.com/embed/3sqdyEpklFU?controls=0&autoplay=1&mute=1"
