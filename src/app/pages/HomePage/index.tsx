@@ -45,7 +45,14 @@ export function HomePage() {
           </p>
         </ContentLeft>
         <ContentRight>
-          <img src={Change} alt="Change 2016-2020" />
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/3sqdyEpklFU?controls=0&autoplay=1&mute=1"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
           <Cite>
             NASA's Scientific Visualization Studio. Data provided by Robert B.
             Schmunk (NASA/GSFC GISS).

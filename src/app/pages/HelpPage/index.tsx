@@ -6,10 +6,13 @@ import {
   ContentLeft,
   ContentRight,
   SecondContainer,
+  Cite,
 } from '../../../styles/styles';
 import ScrollTop from '../../components/ScrollTop';
 import Wave from '../../components/Wave';
 import Solar from '../../../img/solar.jpg';
+import Ecar from '../../../img/ecar.jpg';
+import Cow from '../../../img/cow.jpg';
 
 export function HelpPage() {
   return (
@@ -39,7 +42,7 @@ export function HelpPage() {
         </ContentLeft>
         <ContentRight>
           <img src={Solar} alt="" />
-          Photo by Gustavo Fring from Pexels
+          <Cite>Photo by Gustavo Fring from Pexels</Cite>
         </ContentRight>
       </Container>
       <Wave
@@ -52,6 +55,7 @@ export function HelpPage() {
       />
       <SecondContainer>
         <ContentLeft>
+          <h1>Make your next car purchase electric.</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
             reiciendis amet tenetur distinctio sit, nesciunt ea repudiandae
@@ -67,7 +71,42 @@ export function HelpPage() {
             dolor!
           </p>
         </ContentLeft>
+        <ContentRight>
+          <img src={Ecar} alt="electriic car" />
+          <Cite>Photo by Rathaphon Nanthapreecha from Pexels</Cite>
+        </ContentRight>
       </SecondContainer>
+      <Wave
+        link="http://www.w3.org/2000/svg"
+        view="0 0 1440 320"
+        color="#8DDFB9"
+        opacity="1"
+        d="M0,96L720,256L1440,64L1440,0L720,0L0,0Z"
+        pathLength={0.483}
+      ></Wave>
+      <Container>
+        <ContentLeft>
+          <h1>Reduce the number of meals you eat that contain meat.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            reiciendis amet tenetur distinctio sit, nesciunt ea repudiandae
+            maiores, itaque illum sed rem incidunt ullam placeat laudantium
+            voluptas earum quod error suscipit. Odit maiores suscipit delectus
+            unde ullam magni architecto similique libero ut fugit sequi officiis
+            autem explicabo ipsam nisi fugiat, ex saepe obcaecati velit itaque
+            accusantium. Totam ratione nesciunt aliquam numquam, similique
+            expedita aperiam illo impedit officiis quidem fugit ipsa quo minima
+            ut sapiente atque vero recusandae. Architecto minus, mollitia dolor
+            natus ipsa maxime eum animi sapiente et repellat vitae placeat?
+            Similique debitis delectus consequatur! Odit eos doloremque sequi
+            dolor!
+          </p>
+        </ContentLeft>
+        <ContentRight>
+          <img src={Cow} alt="cow" />
+          <Cite>Photo by Julia Volk from Pexels</Cite>
+        </ContentRight>
+      </Container>
       <ScrollTop />
     </>
   );
