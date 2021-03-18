@@ -21,7 +21,10 @@ export function EnergyPage() {
       </Helmet>
       <Container style={{ minHeight: '50vh' }}>
         <ContentLeft>
-          <h1>ENERGY PAGE</h1>
+          <h1>
+            <span style={{ color: 'red' }}>Renewable energy</span> is the best
+            way to fight climate change.
+          </h1>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam
             distinctio quod, eveniet libero animi eaque, asperiores, minus alias
