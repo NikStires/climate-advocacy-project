@@ -5,6 +5,9 @@ export const Container = styled.div`
   justify-content: space-between;
   padding: 1rem 0rem 0rem 0rem;
   background: white;
+  @media (max-width: 1300px) {
+    flex-direction: column;
+  }
 `;
 
 export const SecondContainer = styled(Container)`
@@ -22,6 +25,10 @@ export const ContentLeft = styled.div`
   p {
     padding: 0rem 2rem 0rem 0rem;
   }
+  @media (max-width: 1300px) {
+    width: 100%;
+    padding: 1rem;
+  }
 `;
 
 export const ContentRight = styled(ContentLeft)`
@@ -32,4 +39,7 @@ export const Cite = styled.h6`
   margin-top: 0rem;
   font-style: italic;
   width: 50%;
+  @media (max-width: 1300px) {
+    width: 100%;
+  }
 `;

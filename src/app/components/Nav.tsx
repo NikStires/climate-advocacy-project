@@ -83,7 +83,6 @@ const StyledNav = styled(motion.nav)`
       font-family: 'Work Sans', sans-serif;
     }
     ul {
-      padding: 2rem;
       justify-content: space-around;
       width: 100%;
     }
